@@ -3,9 +3,10 @@ package com.linfafa.strategy;
 public class CashContext {
     private CashSuper cs;
 
-    public CashContext(CashSuper csuper){
-        this.cs=csuper;
+    public CashContext(CashSuper csuper) {
+        this.cs = csuper;
     }
+
     public CashContext(int type) {
         switch (type) {
             //正常收费

@@ -10,7 +10,7 @@ abstract class Strategy {
 /**
  * 具体算法A
  */
-class ConcreteStrategyA extends Strategy{
+class ConcreteStrategyA extends Strategy {
 
     public void AlgorithmInterface() {
         System.out.println("算法A实现");
@@ -20,7 +20,7 @@ class ConcreteStrategyA extends Strategy{
 /**
  * 具体算法B
  */
-class ConcreteStrategyB extends Strategy{
+class ConcreteStrategyB extends Strategy {
 
     public void AlgorithmInterface() {
         System.out.println("算法B实现");
@@ -30,7 +30,7 @@ class ConcreteStrategyB extends Strategy{
 /**
  * 具体算法C
  */
-class ConcreteStrategyC extends Strategy{
+class ConcreteStrategyC extends Strategy {
 
     public void AlgorithmInterface() {
         System.out.println("算法C实现");

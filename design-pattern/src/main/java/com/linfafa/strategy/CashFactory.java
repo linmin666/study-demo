@@ -18,7 +18,7 @@ public class CashFactory {
                 break;
             //打8折
             case 3:
-                cs=new CashRebate(0.8);
+                cs = new CashRebate(0.8);
                 break;
         }
         return cs;
