@@ -1,8 +1,6 @@
 package com.linfafa.linkedlist;
 
 
-import scala.util.parsing.combinator.testing.Str;
-
 public class Solution2 {
     /**
      * 2.l两数相加

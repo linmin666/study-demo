@@ -1,4 +1,6 @@
-package com.linfafa.chapter12;
+package com.linfafa.c12;
+
+import org.openjdk.jol.info.ClassLayout;
 
 /**
  * 双锁检测单例
@@ -19,6 +21,8 @@ public class Singleton {
     }
 
     public static void main(String[] args) {
-        Singleton.getInstance();
+        Singleton s=Singleton.getInstance();
+        String layout = ClassLayout.parseInstance(s).toPrintable();
+        System.out.println(layout);
     }
 }

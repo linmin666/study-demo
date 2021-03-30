@@ -1,4 +1,4 @@
-package com.linfafa.chapter12;
+package com.linfafa.c12;
 
 /**
  * 1. 关于volatile的可见性
