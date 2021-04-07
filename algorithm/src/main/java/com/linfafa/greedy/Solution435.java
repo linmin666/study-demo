@@ -31,12 +31,9 @@ public class Solution435 {
     }
 
     public static void main(String[] args) {
-//        int[][] intervals = new int[][]{{1, 2}, {1, 2}, {1, 2},{3,4}};
         int[][] intervals = new int[][]{{0,2},{1,3},{2,4},{3,5},{4,6}};
         Solution435 s = new Solution435();
         int res = s.eraseOverlapIntervals(intervals);
         System.out.println(res);
-
-//        Arrays.stream(intervals).forEach(x -> System.out.println("[" + x[0] + "," + x[1] + "]"));
     }
 }
