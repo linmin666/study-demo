@@ -1,6 +1,4 @@
-package com.linfafa.tree;
-
-import com.linfafa.sort.Solution147;
+package com.linfafa.datastructure.tree;
 
 import java.util.ArrayList;
 import java.util.List;

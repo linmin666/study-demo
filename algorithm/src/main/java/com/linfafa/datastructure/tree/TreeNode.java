@@ -1,4 +1,4 @@
-package com.linfafa.tree;
+package com.linfafa.datastructure.tree;
 
 
  public class TreeNode {

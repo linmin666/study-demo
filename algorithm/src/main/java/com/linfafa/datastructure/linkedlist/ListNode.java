@@ -1,4 +1,4 @@
-package com.linfafa.linkedlist;
+package com.linfafa.datastructure.linkedlist;
 
 public class ListNode {
     int val;
