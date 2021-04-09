@@ -1,4 +1,4 @@
-package com.linfafa.datastructure.array;
+package com.linfafa.doublepointer;
 
 import java.util.Arrays;
 
