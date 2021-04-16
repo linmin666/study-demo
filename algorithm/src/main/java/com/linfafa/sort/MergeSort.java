@@ -18,9 +18,16 @@ public class MergeSort {
         mergeSort(nums, left, mid, temp);
         mergeSort(nums, mid, right, temp);
         //conquer
-        int p = left, q = mid, i = left;
+        int p = left;//p是指向[left,mid)的指针
+        int q = mid;//q是指向[mid,right)的指针
+        int i = left;//i用于指向temp中写入的index
+
+        //p在[left,mid)范围内或者q在[mid,right)范围内（即还有元素没有放入temp数组）
         while (p < mid || q < right) {
-            if (q >= right || (p < mid && nums[p] <= nums[q])) {//1.q>=right(只存在一个元素或者不存在元素);2.存在元素且左边小于右边
+            //1.q>=right(指右半边已经都有数据了，都写进temp数组里了);
+            //2.左边的元素还没写完，且左边小于右边
+            if (q >= right || (p < mid && nums[p] <= nums[q])) {
+
                 temp[i++] = nums[p++];
             } else {
                 temp[i++] = nums[q++];
