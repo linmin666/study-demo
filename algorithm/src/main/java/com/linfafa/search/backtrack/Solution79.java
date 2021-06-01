@@ -1,4 +1,4 @@
-package com.linfafa.search;
+package com.linfafa.search.backtrack;
 
 /**
  * 题目：单词搜索

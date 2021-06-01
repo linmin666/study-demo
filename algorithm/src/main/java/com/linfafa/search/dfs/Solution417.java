@@ -1,4 +1,4 @@
-package com.linfafa.search;
+package com.linfafa.search.dfs;
 
 import java.util.ArrayList;
 import java.util.List;

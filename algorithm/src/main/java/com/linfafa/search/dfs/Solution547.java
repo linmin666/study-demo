@@ -1,4 +1,4 @@
-package com.linfafa.search;
+package com.linfafa.search.dfs;
 
 /**
  * 题目：省份数量

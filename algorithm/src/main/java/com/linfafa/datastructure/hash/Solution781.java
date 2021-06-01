@@ -1,4 +1,4 @@
-package com.linfafa.datastructure.hashmap;
+package com.linfafa.datastructure.hash;
 
 import java.util.HashMap;
 import java.util.Map;

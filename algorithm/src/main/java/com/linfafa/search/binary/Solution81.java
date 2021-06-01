@@ -1,4 +1,4 @@
-package com.linfafa.search;
+package com.linfafa.search.binary;
 
 /**
  * 搜索旋转排序数组 II

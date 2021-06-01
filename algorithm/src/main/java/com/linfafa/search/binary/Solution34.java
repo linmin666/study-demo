@@ -1,4 +1,4 @@
-package com.linfafa.search;
+package com.linfafa.search.binary;
 
 import java.util.Arrays;
 

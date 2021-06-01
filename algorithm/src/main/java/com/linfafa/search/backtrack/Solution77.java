@@ -1,4 +1,4 @@
-package com.linfafa.search;
+package com.linfafa.search.backtrack;
 
 import java.util.ArrayList;
 import java.util.Deque;
