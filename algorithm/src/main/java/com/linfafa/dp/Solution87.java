@@ -1,4 +1,4 @@
-package com.linfafa.dynamicprogramming;
+package com.linfafa.dp;
 
 /**
  * 使用下面描述的算法可以扰乱字符串s得到字符串 t ：

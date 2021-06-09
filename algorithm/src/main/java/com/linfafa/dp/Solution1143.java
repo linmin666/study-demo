@@ -1,4 +1,4 @@
-package com.linfafa.dynamicprogramming;
+package com.linfafa.dp;
 
 /**
  * 给定两个字符串text1 和text2，返回这两个字符串的最长 公共子序列 的长度。如果不存在 公共子序列 ，返回 0 。

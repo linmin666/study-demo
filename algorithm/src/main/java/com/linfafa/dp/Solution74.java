@@ -1,4 +1,4 @@
-package com.linfafa.dynamicprogramming;
+package com.linfafa.dp;
 
 /**
  * 编写一个高效的算法来判断m x n矩阵中，是否存在一个目标值。该矩阵具有如下特性：

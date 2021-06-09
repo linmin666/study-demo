@@ -1,4 +1,4 @@
-package com.linfafa.dynamicprogramming;
+package com.linfafa.dp;
 
 /**
  * 🌟🌟🌟🌟
