@@ -42,6 +42,32 @@ public class Solution120 {
         return min;
     }
 
+    /**
+     * 空间优化：（1）滚动数组；（2）根据状态依赖调整迭代/循环方向
+     * 滚动数组：只需要将数组的一维改成2，任何将维的dp[i]改成dp[i & 1]或dp[i % 2]即可
+     */
+    public int minimumTotal1(List<List<Integer>> triangle) {
+        int n = triangle.size();
+        int[][] dp = new int[2][n];
+        dp[0][0] = triangle.get(0).get(0);
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j <= i; ++j) {
+                int val = triangle.get(i).get(j);
+                if (i > 0 && j == i)//右侧边界
+                    dp[i & 1][j] = dp[(i - 1) & 1][j - 1] + val;
+                else if (i > 0 && j == 0)//左侧边界
+                    dp[i & 1][j] = dp[(i - 1) & 1][j] + val;
+                else if (i > 0 && j > 0)
+                    dp[i & 1][j] = Math.min(dp[(i - 1) & 1][j], dp[(i - 1) & 1][j - 1]) + val;
+            }
+        }
+        int min = dp[(n - 1) & 1][0];
+        for (int i = 0; i < n; ++i) {
+            min = Math.min(min, dp[(n - 1) & 1][i]);
+        }
+        return min;
+    }
+
     public static void main(String[] args) {
 
         int[][] a = {{2}, {3, 4}, {6, 5, 7}, {4, 1, 8, 3}};

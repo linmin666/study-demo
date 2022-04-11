@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * 题目：统计所有可行路径
- * 难度：困难
+ * 难度：困难🌟🌟🌟
  * 题目描述：给你一个互不相同的整数数组，其中locations[i]表示第i个城市的位置。
  * 同时给你start，finish和fuel分别表示出发城市、目的地城市和你初始拥有的汽油总量。
  * 每一步中，如果你在城市i，你可以选择任意一个城市j，满足j != i且0 <= j < locations.length，

@@ -1,5 +1,9 @@
 package com.linfafa.doublepointer;
 
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * 题目：长度最小的子数组
  * 难度：中等
@@ -28,6 +32,7 @@ public class Solution209 {
         return min == Integer.MAX_VALUE ? 0 : min;
     }
 
+    public int minSubArrayLen(String a){return 0;}
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 4, 5};
         int target = 10;

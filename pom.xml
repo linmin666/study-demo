@@ -10,8 +10,9 @@
     <modules>
         <module>algorithm</module>
         <module>understanding-jvm</module>
-        <module>commons-pool</module>
-        <module>interpreter</module>
+        <module>design-pattern</module>
+        <module>understanding-java</module>
+        <module>understanding-apache-commons</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
